@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+
+
+<div class="jumbotron centered">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Imei checker
+    </h1>
+    <p class="lead">Check your phone Imei</p>
+    <hr>
+    <!-- <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+    <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a> -->
+
+    <form action="/submit" method="POST"> 
+      <input type="text" name="text12" class="search" onfocus="this.value=''" placeholder="Type your IMEI here">
+      <input type="submit" name="submit" class="submit" value="Check">
+    </form>
+    <form action="/submitimei" method="POST"> 
+      <input type="text" name="text81" class="search" min="14" max="14" onfocus="this.value=''" placeholder="Add IMEI to Database">
+      <input type="submit" name="submit22" class="submit" value="Add">
+    </form>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
