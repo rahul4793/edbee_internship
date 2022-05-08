@@ -3,7 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
-
+const PORT = process.env.port || 3000;
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -53,16 +53,18 @@ app.post("/submit",function(req,res){
 
 		return (sum % 10 == 0);
 	}
-	if (isValidIMEI(id))
-    res.render("sucess");
-		
-        Imei.findOne({title:id},function(err,foundUsers){
-            if(foundUsers){
-                console.log("Valid IMEI Code and found in database");    
-            }
-        else 
-    res.render("failed");
-        })
+	Imei.findOne({title:id},function(err,foundUsers){
+		if(foundUsers){
+			res.render("sucess");     
+		}
+	else 
+res.render("failed");
+	})
+	if (isValidIMEI(id)  ){
+    console.log("Valid IMEI Code and found in database"); 
+    res.render('sucess'); 
+	}
+	return;
 });
 
 app.get("/imeis",function(req,res){
@@ -83,9 +85,8 @@ app.post("/submitimei",function(req,res){
      });
      newimei.save();
      res.render("added");
+	 
 });
 
 
-app.listen(3000, function() {
-  console.log("Server started on port 3000");
-});
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
