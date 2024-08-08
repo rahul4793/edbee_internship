@@ -1,0 +1,60 @@
+[33mcommit 744c7bfe140c8c74b9833d4867345880c4c7d4ef[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sun May 8 19:09:20 2022 +0530
+
+    first
+
+[33mcommit 6fb79cc3170a52802ff5f237e6e42dbd7205656b[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 0bbb7f3 832bc10
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sun May 8 17:25:11 2022 +0530
+
+    Merge branch 'main' of github.com:rahul4793/IMEIchecker
+
+[33mcommit 0bbb7f3d5b7a504263c42accb6fac4ebc5d24f7c[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sun May 8 17:16:40 2022 +0530
+
+    make it better
+
+[33mcommit 832bc104d5cd48195c3626fcb221beda6d43b272[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sun May 8 16:57:33 2022 +0530
+
+    Update failed.ejs
+
+[33mcommit debed65fdb71bc6db886972baf34438190ee8a30[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sun May 8 16:56:43 2022 +0530
+
+    Update sucess.ejs
+
+[33mcommit cfa6094241d9103ad989531337aa5c7892f7142f[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sun May 8 16:56:18 2022 +0530
+
+    Update added.ejs
+
+[33mcommit 68db516f0495564b803fde61ae7a4d14756bdd3c[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sun May 8 16:55:42 2022 +0530
+
+    Update app.js
+
+[33mcommit 0bc7faf14add6129ad588b328e38171389f06682[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sat May 7 18:28:01 2022 +0530
+
+    Update README.md
+
+[33mcommit 3d4bcd38cf3b17621fa7f32f05c1ccaf549b8201[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sat May 7 17:46:57 2022 +0530
+
+    first commit
+
+[33mcommit f40ff0b2f1f3249b2901edc33a17f4b277003309[m
+Author: rahul4793 <73338505+rahul4793@users.noreply.github.com>
+Date:   Sat May 7 17:41:58 2022 +0530
+
+    first commit
